@@ -4,15 +4,25 @@
 This project uses machine learning models to predict whether an individual has Polycystic Ovary Syndrome (PCOS) based on various features such as BMI, cycle length, hormone levels, and other relevant factors. The model can help doctors and individuals monitor potential health conditions related to PCOS.
 
 # Features
+
 BMI: Body Mass Index of the individual
+
 Cycle Length (days): Length of the menstrual cycle in days
+
 LH (mIU/mL): Luteinizing hormone levels
+
 FSH/LH: Ratio of Follicle Stimulating Hormone to Luteinizing Hormone
+
 AMH (ng/mL): Anti-Müllerian Hormone levels
+
 Weight Gain (Y/N): Whether the individual has gained weight (Y=1, N=0)
+
 Hair Growth (Y/N): Whether the individual experiences abnormal hair growth (Y=1, N=0)
+
 Follicle No. (L): Number of follicles in the left ovary
+
 Follicle No. (R): Number of follicles in the right ovary
+
 The target variable is PCOS (Y/N), where Y indicates the presence of PCOS and N indicates its absence.
 
 # Key Insights
@@ -23,9 +33,13 @@ Data Preprocessing included handling missing values, encoding categorical variab
 Multiple Classification Models were applied, including:
 
 Logistic Regression
+
 Support Vector Machine (SVM)
+
 Naive Bayes (GaussianNB)
+
 Random Forest
+
 XGBoost
 
 # Results
@@ -37,13 +51,21 @@ A Gradio interface was created to allow users to input their data (e.g., BMI, cy
 
 # Input Features
 BMI
+
 Cycle length (days)
+
 LH (mIU/mL)
+
 FSH/LH
+
 AMH (ng/mL)
+
 Weight Gain (Y/N)
+
 Hair Growth (Y/N)
+
 Follicle No. (L)
+
 Follicle No. (R)
 
 # Output
@@ -52,22 +74,35 @@ The Gradio interface provides a user-friendly method to interact with the model 
 
 # Setup and Installation
 Requirements
+
 Python 3.7 or higher
+
 Required Python libraries:
+
 pandas
+
 numpy
+
 scikit-learn
+
 matplotlib
+
 seaborn
+
 gradio
+
 xgboost (optional, for XGBoost model)
+
 statsmodels
 
 Clone the repository and install the dependencies using the following commands:
 
 git clone <repository-url>
+
 cd <project-directory>
+
 pip install -r requirements.txt
+
 
 # Running the Project
 To run the notebook for model training and prediction:
