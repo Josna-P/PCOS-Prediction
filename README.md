@@ -21,6 +21,7 @@ Exploratory Data Analysis (EDA) was performed to understand the data distributio
 Data Preprocessing included handling missing values, encoding categorical variables (like 'Y/N' features), and scaling the features for models that require normalized data (like Logistic Regression and SVM).
 
 Multiple Classification Models were applied, including:
+
 Logistic Regression
 Support Vector Machine (SVM)
 Naive Bayes (GaussianNB)
