@@ -73,7 +73,7 @@ PCOS Positive or PCOS Negative
 The Gradio interface provides a user-friendly method to interact with the model and make predictions based on input data.
 
 # Setup and Installation
-Requirements
+**Requirements**
 
 Python 3.7 or higher
 
@@ -95,7 +95,7 @@ xgboost (optional, for XGBoost model)
 
 statsmodels
 
-Clone the repository and install the dependencies using the following commands:
+**Clone the repository and install the dependencies using the following commands:**
 
 git clone repository-url
 
