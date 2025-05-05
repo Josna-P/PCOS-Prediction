@@ -97,9 +97,9 @@ statsmodels
 
 Clone the repository and install the dependencies using the following commands:
 
-git clone <repository-url>
+git clone repository-url
 
-cd <project-directory>
+cd project-directory
 
 pip install -r requirements.txt
 
